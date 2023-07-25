@@ -52,7 +52,7 @@ int main()
 	std::string element_2 = container.get(1);  # "element_2"
 	std::string element_3 = container.get(2);  # "element_3"
 
-	container.delete(1);
+	container.erase(1);
 
 	std::string element_1 = container.get(0);  # "element_1"
 	std::string element_3 = container.get(1);  # "element_3"
